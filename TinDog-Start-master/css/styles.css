@@ -18,16 +18,12 @@ h3 {
     padding-top: 20px;
 }
 
-.container-fluid {
-    padding: 7% 15%;
-}
-
 /*Headings*/
 .big-heading {
     font-weight: 800;
     font-size: 3.5rem;
     line-height: 1.5;
-    color: #fff;
+
 }
 
 .section-heading {
@@ -35,9 +31,24 @@ h3 {
     line-height: 1.5;
 }
 
-#title {
-    background-color: #ff4c68;  
-    text-align: left;  
+#title .container-fluid {
+    padding: 3% 15%;
+    text-align: left;
+}
+
+/*Containers*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*Sections*/
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation bar*/
@@ -82,8 +93,7 @@ h3 {
     color: #ff4c68;
 }
 
-#features {        
-    background-color: #fff;
+#features {
     position: relative;
 }
 
@@ -92,9 +102,8 @@ h3 {
 }
 
 /* testimonials*/
-#testimonials {    
+#testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -109,7 +118,7 @@ h3 {
 }
 
 #press {
-    background-color: #ef8172;    
+    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -119,10 +128,9 @@ h3 {
 }
 
 /*pricing*/
-
 #pricing {
     padding: 100px;
-    
+
 }
 
 .price-text {
@@ -138,6 +146,7 @@ h3 {
     #title {
         text-align: center;
     }
+
     .title-image {
         position: static;
         transform: rotate(0deg);
@@ -145,22 +154,15 @@ h3 {
     }
 }
 
-#cta {
-    background-color: #ff4c68;    
-}
-
 .cta-btn {
-    margin: 50px 20px 100px;
+    margin: 50px 20px;
 }
 
 #footer {
-    background-color: #fff;    
+    background-color: #fff;
 }
 
 .footer-icon {
-    padding: 80px 15px 25px;
+    padding: 0 15px ;
 }
 
-.copyright {
-    padding-bottom: 55px;
-}
